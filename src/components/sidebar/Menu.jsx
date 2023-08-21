@@ -7,7 +7,7 @@ const Menu = () => {
         <li>
           <a
             href="#"
-            className="h-10 flex items-center text-sm font-semibold text-link hover:text-white"
+            className="h-10 flex items-center text-sm font-semibold text-white rounded hover:text-white px-4 bg-active"
           >
             Anasayfa
           </a>
@@ -15,7 +15,7 @@ const Menu = () => {
         <li>
           <a
             href="#"
-            className="h-10 flex items-center text-sm font-semibold text-link hover:text-white"
+            className="h-10 flex items-center text-sm font-semibold text-link rounded hover:text-white  px-4"
           >
             Ara
           </a>
@@ -23,7 +23,7 @@ const Menu = () => {
         <li>
           <a
             href="#"
-            className="h-10 flex items-center text-sm font-semibold text-link hover:text-white"
+            className="h-10 flex items-center text-sm font-semibold text-link rounded hover:text-white px-4"
           >
             Kitapligin
           </a>
