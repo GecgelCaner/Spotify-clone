@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Content = () => {
   return (
-    <div>
+    <div className="flex-auto">
       <Navbar />
       Content
     </div>

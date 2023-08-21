@@ -6,14 +6,15 @@
   html,
   body,
   #root {
-    @apply h-full;
+    @apply h-full bg-backdrop text-white;
   }
 
   #root {
     @apply flex flex-col;
   }
 
-  .container {
+  .wrapper {
     height: calc(100% - theme("spacing.24"));
+    @apply flex;
   }
 }

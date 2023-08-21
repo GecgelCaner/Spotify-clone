@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import logo from "../img/logo.svg";
 
 const SideBar = () => {
   return (
-    <div>SideBar</div>
-  )
-}
+    <aside className="w-60 py-6">
+      <img src={logo} alt="" className="h-10" />
+      SideBar
+    </aside>
+  );
+};
 
-export default SideBar
+export default SideBar;
